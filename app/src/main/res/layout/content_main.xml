@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/r"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pinkrosechs.com.pinkrose.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+
+
+
+    >
+
+    <!--<EditText
+        android:id="@+id/editsrch"
+        android:layout_width="784dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Plot #"
+        android:textSize="8pt"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:layout_marginTop="194dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignLeft="@+id/btnsrch"
+        android:layout_alignStart="@+id/btnsrch" />
+
+    <Button
+        android:id="@+id/btnsrch"
+        android:layout_width="784dp"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="9pt"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="429dp"
+
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/editsrch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        app:srcCompat="@drawable/p"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:textSize="14pt"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="94dp"
+        android:text="" />
+</RelativeLayout>
